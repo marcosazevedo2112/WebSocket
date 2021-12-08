@@ -1,0 +1,39 @@
+Arguments: 
+  /usr/bin/node /usr/bin/yarn add nodemon -D
+
+PATH: 
+  /home/marcos/anaconda3/condabin:/home/marcos/.local/share/zinit/polaris/bin:/home/marcos/.local/bin:/home/marcos/.local/bin:/usr/local/bin:/usr/bin:/usr/local/sbin:/usr/lib/jvm/default/bin:/usr/bin/site_perl:/usr/bin/vendor_perl:/usr/bin/core_perl:/usr/lib/jvm/default/bin
+
+Yarn version: 
+  1.22.17
+
+Node version: 
+  16.11.1
+
+Platform: 
+  linux x64
+
+Trace: 
+  SyntaxError: /home/marcos/Documents/websocket/package.json: Unexpected token , in JSON at position 89
+      at JSON.parse (<anonymous>)
+      at /usr/lib/node_modules/yarn/lib/cli.js:1625:59
+      at Generator.next (<anonymous>)
+      at step (/usr/lib/node_modules/yarn/lib/cli.js:310:30)
+      at /usr/lib/node_modules/yarn/lib/cli.js:321:13
+
+npm manifest: 
+  {
+    "name": "websocket",
+    "version": "1.0.0",
+    "main": "index.js",
+    "license": "MIT"
+  },
+  "scripts":{
+    "dev": "nodemon src/app.js"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
